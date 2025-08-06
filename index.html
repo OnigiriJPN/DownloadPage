@@ -8,12 +8,18 @@
 <body>
     <main>
         <h1>AutoEditor-APS</h1>
-        <button>ダウンロードする</button>
-        <a href="https://onigirijpn.github.io/DownloadMain/index.html"></a>
+        <button onclick="DownloadSite()">ダウンロードする</button>
+        <a href="https://onigirijpn.github.io/DownloadMain/index.html" class="Click"></a>
         <iframe src="Details.html" frameborder="0"></iframe>
     </main>
+    <script>
+        function DownloadSite(){
+            document.querySelector(".Click").click();
+        }
+    </script>
     <noscript>
         <h1>JavaScriptが見つかりません。</h1>
     </noscript>
 </body>
+
 </html>
